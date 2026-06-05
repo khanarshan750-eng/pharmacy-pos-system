@@ -1,0 +1,1225 @@
+[
+  {
+    "id": "sale_20260602_9957",
+    "dateTime": "2026-06-01T21:41:13.966Z",
+    "customer": {
+      "name": "Arshan khan",
+      "phone": "03239385714"
+    },
+    "items": [
+      {
+        "productId": 1779808641356,
+        "name": "flagyl 400mg",
+        "batchNo": "an104",
+        "expiryDate": "2028-12-01",
+        "quantity": 5,
+        "unitType": "box",
+        "unitsPerBox": 10,
+        "pricePerUnit": 952.41,
+        "discount": 0,
+        "lineTotal": 4762.05
+      }
+    ],
+    "grossTotal": 4762.05,
+    "discountTotal": 0,
+    "netTotal": 4762.05,
+    "totalProfit": 0,
+    "paymentMethod": "cash"
+  },
+  {
+    "id": "sale_20260602_9959",
+    "dateTime": "2026-06-01T19:45:10.456Z",
+    "customer": {
+      "name": "Muhammad Ali",
+      "phone": "03219876543"
+    },
+    "items": [],
+    "grossTotal": 0,
+    "discountTotal": 0,
+    "netTotal": 0,
+    "totalProfit": 0,
+    "paymentMethod": "card"
+  },
+  {
+    "id": "sale_20260602_9961",
+    "dateTime": "2026-06-01T17:20:45.321Z",
+    "customer": {
+      "name": "Ahmed Raza",
+      "phone": "03005551234"
+    },
+    "items": [
+      {
+        "productId": 1779807371780,
+        "name": "Paracetamol 500mg",
+        "batchNo": "PAR500",
+        "expiryDate": "2027-08-10",
+        "quantity": 4,
+        "unitType": "box",
+        "unitsPerBox": 10,
+        "pricePerUnit": 60,
+        "discount": 0,
+        "lineTotal": 240
+      }
+    ],
+    "grossTotal": 240,
+    "discountTotal": 0,
+    "netTotal": 240,
+    "totalProfit": 40,
+    "paymentMethod": "cash"
+  },
+  {
+    "id": "sale_20260602_9962",
+    "dateTime": "2026-06-01T16:10:55.654Z",
+    "customer": {
+      "name": "Zainab Khan",
+      "phone": "03126667788"
+    },
+    "items": [
+      {
+        "productId": 1779807371781,
+        "name": "Aspirin 100mg",
+        "batchNo": "ASP100",
+        "expiryDate": "2028-02-28",
+        "quantity": 2,
+        "unitType": "box",
+        "unitsPerBox": 10,
+        "pricePerUnit": 120,
+        "discount": 10,
+        "lineTotal": 230
+      }
+    ],
+    "grossTotal": 240,
+    "discountTotal": 10,
+    "netTotal": 230,
+    "totalProfit": 50,
+    "paymentMethod": "card"
+  },
+  {
+    "id": "sale_20260602_9963",
+    "dateTime": "2026-06-01T15:05:30.987Z",
+    "customer": {
+      "name": "Bilal Ahmed",
+      "phone": "03347778899"
+    },
+    "items": [
+      {
+        "productId": 1779807371782,
+        "name": "Augmentin 625mg",
+        "batchNo": "AUG625",
+        "expiryDate": "2027-11-20",
+        "quantity": 3,
+        "unitType": "box",
+        "unitsPerBox": 10,
+        "pricePerUnit": 450,
+        "discount": 0,
+        "lineTotal": 1350
+      }
+    ],
+    "grossTotal": 1350,
+    "discountTotal": 0,
+    "netTotal": 1350,
+    "totalProfit": 250,
+    "paymentMethod": "cash"
+  },
+  {
+    "id": "sale_20260602_9964",
+    "dateTime": "2026-06-01T14:50:12.147Z",
+    "customer": {
+      "name": "Sara Malik",
+      "phone": "03458889900"
+    },
+    "items": [
+      {
+        "productId": 1779807371783,
+        "name": "Cetirizine 10mg",
+        "batchNo": "CET100",
+        "expiryDate": "2028-04-10",
+        "quantity": 2,
+        "unitType": "box",
+        "unitsPerBox": 10,
+        "pricePerUnit": 150,
+        "discount": 0,
+        "lineTotal": 300
+      }
+    ],
+    "grossTotal": 300,
+    "discountTotal": 0,
+    "netTotal": 300,
+    "totalProfit": 60,
+    "paymentMethod": "cash"
+  },
+  {
+    "id": "sale_20260602_9965",
+    "dateTime": "2026-06-01T13:40:25.258Z",
+    "customer": {
+      "name": "Omer Farooq",
+      "phone": "03569990011"
+    },
+    "items": [
+      {
+        "productId": 1779807371784,
+        "name": "Metformin 500mg",
+        "batchNo": "MET500",
+        "expiryDate": "2027-10-05",
+        "quantity": 3,
+        "unitType": "box",
+        "unitsPerBox": 10,
+        "pricePerUnit": 200,
+        "discount": 15,
+        "lineTotal": 585
+      }
+    ],
+    "grossTotal": 600,
+    "discountTotal": 15,
+    "netTotal": 585,
+    "totalProfit": 100,
+    "paymentMethod": "card"
+  },
+  {
+    "id": "sale_20260602_9966",
+    "dateTime": "2026-06-01T12:30:40.369Z",
+    "customer": {
+      "name": "Ayesha Siddiqui",
+      "phone": "03670001122"
+    },
+    "items": [
+      {
+        "productId": 1779807371785,
+        "name": "Ibuprofen 600mg",
+        "batchNo": "IBU600",
+        "expiryDate": "2028-01-15",
+        "quantity": 2,
+        "unitType": "box",
+        "unitsPerBox": 10,
+        "pricePerUnit": 220,
+        "discount": 0,
+        "lineTotal": 440
+      }
+    ],
+    "grossTotal": 440,
+    "discountTotal": 0,
+    "netTotal": 440,
+    "totalProfit": 80,
+    "paymentMethod": "cash"
+  },
+  {
+    "id": "sale_20260602_9967",
+    "dateTime": "2026-06-01T11:20:55.471Z",
+    "customer": {
+      "name": "Usman Ghani",
+      "phone": "03781112233"
+    },
+    "items": [
+      {
+        "productId": 1779807371786,
+        "name": "Omeprazole 20mg",
+        "batchNo": "OMP200",
+        "expiryDate": "2027-07-20",
+        "quantity": 3,
+        "unitType": "box",
+        "unitsPerBox": 10,
+        "pricePerUnit": 180,
+        "discount": 0,
+        "lineTotal": 540
+      }
+    ],
+    "grossTotal": 540,
+    "discountTotal": 0,
+    "netTotal": 540,
+    "totalProfit": 110,
+    "paymentMethod": "cash"
+  },
+  {
+    "id": "sale_20260602_9968",
+    "dateTime": "2026-06-01T10:10:05.582Z",
+    "customer": {
+      "name": "Nadia Islam",
+      "phone": "03892223344"
+    },
+    "items": [
+      {
+        "productId": 1779807371787,
+        "name": "Azithromycin 500mg",
+        "batchNo": "AZI500",
+        "expiryDate": "2028-06-30",
+        "quantity": 2,
+        "unitType": "box",
+        "unitsPerBox": 10,
+        "pricePerUnit": 320,
+        "discount": 20,
+        "lineTotal": 620
+      }
+    ],
+    "grossTotal": 640,
+    "discountTotal": 20,
+    "netTotal": 620,
+    "totalProfit": 130,
+    "paymentMethod": "card"
+  },
+  {
+    "id": "sale_20260602_9969",
+    "dateTime": "2026-06-01T09:05:15.693Z",
+    "customer": {
+      "name": "Kamran Shehzad",
+      "phone": "03903334455"
+    },
+    "items": [
+      {
+        "productId": 1779807371788,
+        "name": "Sertraline 50mg",
+        "batchNo": "SER500",
+        "expiryDate": "2027-09-25",
+        "quantity": 2,
+        "unitType": "box",
+        "unitsPerBox": 10,
+        "pricePerUnit": 280,
+        "discount": 0,
+        "lineTotal": 560
+      }
+    ],
+    "grossTotal": 560,
+    "discountTotal": 0,
+    "netTotal": 560,
+    "totalProfit": 100,
+    "paymentMethod": "cash"
+  },
+  {
+    "id": "sale_20260602_9970",
+    "dateTime": "2026-06-01T08:50:30.714Z",
+    "customer": {
+      "name": "Rabia Akram",
+      "phone": "03014445566"
+    },
+    "items": [
+      {
+        "productId": 1779807371789,
+        "name": "Levothyroxine 50mcg",
+        "batchNo": "LEV500",
+        "expiryDate": "2028-08-10",
+        "quantity": 1,
+        "unitType": "box",
+        "unitsPerBox": 10,
+        "pricePerUnit": 350,
+        "discount": 0,
+        "lineTotal": 350
+      }
+    ],
+    "grossTotal": 350,
+    "discountTotal": 0,
+    "netTotal": 350,
+    "totalProfit": 70,
+    "paymentMethod": "cash"
+  },
+  {
+    "id": "sale_20260602_9971",
+    "dateTime": "2026-06-01T07:40:45.825Z",
+    "customer": {
+      "name": "Hamza Tariq",
+      "phone": "03125556677"
+    },
+    "items": [
+      {
+        "productId": 1779807371790,
+        "name": "Prednisolone 5mg",
+        "batchNo": "PRE500",
+        "expiryDate": "2027-06-15",
+        "quantity": 2,
+        "unitType": "box",
+        "unitsPerBox": 10,
+        "pricePerUnit": 190,
+        "discount": 10,
+        "lineTotal": 370
+      }
+    ],
+    "grossTotal": 380,
+    "discountTotal": 10,
+    "netTotal": 370,
+    "totalProfit": 80,
+    "paymentMethod": "card"
+  },
+  {
+    "id": "sale_20260602_9972",
+    "dateTime": "2026-06-01T06:30:55.936Z",
+    "customer": {
+      "name": "Sana Akhtar",
+      "phone": "03236667788"
+    },
+    "items": [
+      {
+        "productId": 1779807371791,
+        "name": "Atorvastatin 20mg",
+        "batchNo": "ATO200",
+        "expiryDate": "2028-09-20",
+        "quantity": 3,
+        "unitType": "box",
+        "unitsPerBox": 10,
+        "pricePerUnit": 260,
+        "discount": 0,
+        "lineTotal": 780
+      }
+    ],
+    "grossTotal": 780,
+    "discountTotal": 0,
+    "netTotal": 780,
+    "totalProfit": 150,
+    "paymentMethod": "cash"
+  },
+  {
+    "id": "sale_20260602_9973",
+    "dateTime": "2026-06-01T05:20:05.047Z",
+    "customer": {
+      "name": "Noman Ali",
+      "phone": "03347778899"
+    },
+    "items": [
+      {
+        "productId": 1779807371792,
+        "name": "Losartan 50mg",
+        "batchNo": "LOS500",
+        "expiryDate": "2027-05-10",
+        "quantity": 2,
+        "unitType": "box",
+        "unitsPerBox": 10,
+        "pricePerUnit": 240,
+        "discount": 0,
+        "lineTotal": 480
+      }
+    ],
+    "grossTotal": 480,
+    "discountTotal": 0,
+    "netTotal": 480,
+    "totalProfit": 90,
+    "paymentMethod": "cash"
+  },
+  {
+    "id": "sale_20260602_9974",
+    "dateTime": "2026-06-01T04:10:15.158Z",
+    "customer": {
+      "name": "Mehwish Hashmi",
+      "phone": "03458889900"
+    },
+    "items": [
+      {
+        "productId": 1779807371793,
+        "name": "Gabapentin 300mg",
+        "batchNo": "GAB300",
+        "expiryDate": "2028-07-25",
+        "quantity": 2,
+        "unitType": "box",
+        "unitsPerBox": 10,
+        "pricePerUnit": 300,
+        "discount": 25,
+        "lineTotal": 575
+      }
+    ],
+    "grossTotal": 600,
+    "discountTotal": 25,
+    "netTotal": 575,
+    "totalProfit": 120,
+    "paymentMethod": "card"
+  },
+  {
+    "id": "sale_20260602_9975",
+    "dateTime": "2026-06-01T03:05:25.269Z",
+    "customer": {
+      "name": "Faisal Jabbar",
+      "phone": "03569990011"
+    },
+    "items": [
+      {
+        "productId": 1779807371794,
+        "name": "Amlodipine 5mg",
+        "batchNo": "AML500",
+        "expiryDate": "2027-04-15",
+        "quantity": 3,
+        "unitType": "box",
+        "unitsPerBox": 10,
+        "pricePerUnit": 170,
+        "discount": 0,
+        "lineTotal": 510
+      }
+    ],
+    "grossTotal": 510,
+    "discountTotal": 0,
+    "netTotal": 510,
+    "totalProfit": 100,
+    "paymentMethod": "cash"
+  },
+  {
+    "id": "sale_20260602_9976",
+    "dateTime": "2026-06-01T02:50:35.371Z",
+    "customer": {
+      "name": " Reshma Yasir",
+      "phone": "03670001122"
+    },
+    "items": [
+      {
+        "productId": 1779807371795,
+        "name": "Ranitidine 150mg",
+        "batchNo": "RAN150",
+        "expiryDate": "2028-10-05",
+        "quantity": 2,
+        "unitType": "box",
+        "unitsPerBox": 10,
+        "pricePerUnit": 140,
+        "discount": 0,
+        "lineTotal": 280
+      }
+    ],
+    "grossTotal": 280,
+    "discountTotal": 0,
+    "netTotal": 280,
+    "totalProfit": 60,
+    "paymentMethod": "cash"
+  },
+  {
+    "id": "sale_20260602_9977",
+    "dateTime": "2026-06-01T01:40:45.482Z",
+    "customer": {
+      "name": "Shahzeb Khan",
+      "phone": "03781112233"
+    },
+    "items": [
+      {
+        "productId": 1779807371796,
+        "name": "Diclofenac 50mg",
+        "batchNo": "DIC500",
+        "expiryDate": "2027-03-20",
+        "quantity": 2,
+        "unitType": "box",
+        "unitsPerBox": 10,
+        "pricePerUnit": 210,
+        "discount": 15,
+        "lineTotal": 405
+      }
+    ],
+    "grossTotal": 420,
+    "discountTotal": 15,
+    "netTotal": 405,
+    "totalProfit": 85,
+    "paymentMethod": "card"
+  },
+  {
+    "id": "sale_20260602_6094",
+    "dateTime": "2026-06-02T12:04:38.107Z",
+    "customer": {
+      "name": "shayan",
+      "phone": "4567890"
+    },
+    "items": [
+      {
+        "productId": 1779808641356,
+        "name": "flagyl 400mg",
+        "batchNo": "an104",
+        "expiryDate": "2028-12-01",
+        "quantity": 3,
+        "unitType": "plate",
+        "unitsPerBox": 10,
+        "pricePerUnit": 95.241,
+        "discount": 0,
+        "lineTotal": 285.723
+      }
+    ],
+    "grossTotal": 285.723,
+    "discountTotal": 0,
+    "netTotal": 285.723,
+    "totalProfit": 41.42700000000001,
+    "paymentMethod": "cash"
+  },
+  {
+    "id": "sale_20260604_7440",
+    "dateTime": "2026-06-04T16:13:02.024Z",
+    "customer": {
+      "name": "asdfsdfb",
+      "phone": "12345678"
+    },
+    "items": [
+      {
+        "productId": 1779807371775,
+        "name": "razolam 0.5mg",
+        "batchNo": "8d897",
+        "expiryDate": "2028-01-01",
+        "quantity": 1,
+        "unitType": "plate",
+        "unitsPerBox": 10,
+        "pricePerUnit": 20.1,
+        "discount": 0,
+        "lineTotal": 20.1
+      }
+    ],
+    "grossTotal": 20.1,
+    "discountTotal": 0,
+    "netTotal": 20.1,
+    "totalProfit": 0.28140000000000004,
+    "paymentMethod": "cash"
+  },
+  {
+    "id": "sale_20260605_2164",
+    "dateTime": "2026-06-04T20:35:46.258Z",
+    "customer": {
+      "name": null,
+      "phone": null
+    },
+    "items": [
+      {
+        "productId": 1779807371775,
+        "name": "razolam 0.5mg",
+        "batchNo": "8d897",
+        "expiryDate": "2028-01-01",
+        "quantity": 1,
+        "unitType": "box",
+        "unitsPerBox": 10,
+        "pricePerUnit": 201,
+        "discount": 0,
+        "lineTotal": 201
+      },
+      {
+        "productId": 1780328988413,
+        "name": "Panzol 40mg",
+        "batchNo": "45t5",
+        "expiryDate": "2028-06-14",
+        "quantity": 1,
+        "unitType": "box",
+        "unitsPerBox": 14,
+        "pricePerUnit": 450,
+        "discount": 0,
+        "lineTotal": 450
+      }
+    ],
+    "grossTotal": 651,
+    "discountTotal": 0,
+    "netTotal": 651,
+    "totalProfit": 0,
+    "paymentMethod": "cash"
+  },
+  {
+    "id": "sale_20260605_9402",
+    "dateTime": "2026-06-05T08:17:55.504Z",
+    "customer": {
+      "name": "arshan",
+      "phone": "3456"
+    },
+    "items": [
+      {
+        "productId": 1779807371775,
+        "name": "razolam 0.5mg",
+        "batchNo": "8d897",
+        "expiryDate": "2028-01-01",
+        "quantity": 1,
+        "unitType": "box",
+        "unitsPerBox": 10,
+        "pricePerUnit": 201,
+        "discount": 0,
+        "lineTotal": 201
+      }
+    ],
+    "grossTotal": 201,
+    "discountTotal": 0,
+    "netTotal": 201,
+    "totalProfit": 2.8140000000000005,
+    "paymentMethod": "cash"
+  },
+  {
+    "id": "sale_20260605_4793",
+    "dateTime": "2026-06-05T09:11:45.772Z",
+    "customer": {
+      "name": "werty",
+      "phone": "234567"
+    },
+    "items": [
+      {
+        "productId": 1779807371775,
+        "name": "razolam 0.5mg",
+        "batchNo": "8d897",
+        "expiryDate": "2028-01-01",
+        "quantity": 1,
+        "unitType": "box",
+        "unitsPerBox": 10,
+        "pricePerUnit": 201,
+        "discount": 0,
+        "lineTotal": 201
+      },
+      {
+        "productId": 1780328927857,
+        "name": "Panadol 500mg",
+        "batchNo": "BT5784",
+        "expiryDate": "2028-06-13",
+        "quantity": 1,
+        "unitType": "box",
+        "unitsPerBox": 10,
+        "pricePerUnit": 70,
+        "discount": 0,
+        "lineTotal": 70
+      },
+      {
+        "productId": 1779807371775,
+        "name": "razolam 0.5mg",
+        "batchNo": "8d897",
+        "expiryDate": "2028-01-01",
+        "quantity": 1,
+        "unitType": "box",
+        "unitsPerBox": 10,
+        "pricePerUnit": 201,
+        "discount": 0,
+        "lineTotal": 201
+      }
+    ],
+    "grossTotal": 472,
+    "discountTotal": 0,
+    "netTotal": 472,
+    "totalProfit": 6.6080000000000005,
+    "paymentMethod": "cash"
+  },
+  {
+    "id": "sale_20260605_8560",
+    "dateTime": "2026-06-05T09:12:57.756Z",
+    "customer": {
+      "name": "khgfhdbf",
+      "phone": "dfdgghg"
+    },
+    "items": [
+      {
+        "productId": 1779808641356,
+        "name": "flagyl 400mg",
+        "batchNo": "an104",
+        "expiryDate": "2028-12-01",
+        "quantity": 1,
+        "unitType": "box",
+        "unitsPerBox": 10,
+        "pricePerUnit": 952.41,
+        "discount": 0,
+        "lineTotal": 952.41
+      },
+      {
+        "productId": 1780328988413,
+        "name": "Panzol 40mg",
+        "batchNo": "45t5",
+        "expiryDate": "2028-06-14",
+        "quantity": 1,
+        "unitType": "box",
+        "unitsPerBox": 14,
+        "pricePerUnit": 450,
+        "discount": 0,
+        "lineTotal": 450
+      },
+      {
+        "productId": 1779808641356,
+        "name": "flagyl 400mg",
+        "batchNo": "an104",
+        "expiryDate": "2028-12-01",
+        "quantity": 1,
+        "unitType": "box",
+        "unitsPerBox": 10,
+        "pricePerUnit": 952.41,
+        "discount": 0,
+        "lineTotal": 952.41
+      }
+    ],
+    "grossTotal": 2354.8199999999997,
+    "discountTotal": 0,
+    "netTotal": 2354.8199999999997,
+    "totalProfit": 321.18,
+    "paymentMethod": "cash"
+  },
+  {
+    "id": "sale_20260605_3088",
+    "dateTime": "2026-06-05T09:13:52.802Z",
+    "customer": {
+      "name": "Do gshha",
+      "phone": "03239385714"
+    },
+    "items": [
+      {
+        "productId": 1780330000027,
+        "name": "Colchircal 0.5mg",
+        "batchNo": "COL05",
+        "expiryDate": "2027-07-14",
+        "quantity": 1,
+        "unitType": "box",
+        "unitsPerBox": 10,
+        "pricePerUnit": 440,
+        "discount": 0,
+        "lineTotal": 440
+      }
+    ],
+    "grossTotal": 440,
+    "discountTotal": 0,
+    "netTotal": 440,
+    "totalProfit": 55,
+    "paymentMethod": "cash"
+  },
+  {
+    "id": "sale_20260605_7099",
+    "dateTime": "2026-06-05T09:15:04.619Z",
+    "customer": {
+      "name": "ertyuio",
+      "phone": "2345678"
+    },
+    "items": [
+      {
+        "productId": 1779808641356,
+        "name": "flagyl 400mg",
+        "batchNo": "an104",
+        "expiryDate": "2028-12-01",
+        "quantity": 2,
+        "unitType": "box",
+        "unitsPerBox": 10,
+        "pricePerUnit": 952.41,
+        "discount": 0,
+        "lineTotal": 1904.82
+      },
+      {
+        "productId": 1779808641356,
+        "name": "flagyl 400mg",
+        "batchNo": "an104",
+        "expiryDate": "2028-12-01",
+        "quantity": 2,
+        "unitType": "box",
+        "unitsPerBox": 10,
+        "pricePerUnit": 952.41,
+        "discount": 0,
+        "lineTotal": 1904.82
+      },
+      {
+        "productId": 1780328988413,
+        "name": "Panzol 40mg",
+        "batchNo": "45t5",
+        "expiryDate": "2028-06-14",
+        "quantity": 2,
+        "unitType": "box",
+        "unitsPerBox": 14,
+        "pricePerUnit": 450,
+        "discount": 0,
+        "lineTotal": 900
+      },
+      {
+        "productId": 1779807371775,
+        "name": "razolam 0.5mg",
+        "batchNo": "8d897",
+        "expiryDate": "2028-01-01",
+        "quantity": 2,
+        "unitType": "box",
+        "unitsPerBox": 10,
+        "pricePerUnit": 201,
+        "discount": 0,
+        "lineTotal": 402
+      }
+    ],
+    "grossTotal": 5111.639999999999,
+    "discountTotal": 0,
+    "netTotal": 5111.639999999999,
+    "totalProfit": 647.988,
+    "paymentMethod": "cash"
+  },
+  {
+    "id": "sale_20260605_2726",
+    "dateTime": "2026-06-05T09:20:27.638Z",
+    "customer": {
+      "name": null,
+      "phone": null
+    },
+    "items": [
+      {
+        "productId": 1779807371775,
+        "name": "razolam 0.5mg",
+        "batchNo": "8d897",
+        "expiryDate": "2028-01-01",
+        "quantity": 1,
+        "unitType": "box",
+        "unitsPerBox": 10,
+        "pricePerUnit": 201,
+        "discount": 0,
+        "lineTotal": 201
+      },
+      {
+        "productId": 1780328927857,
+        "name": "Panadol 500mg",
+        "batchNo": "BT5784",
+        "expiryDate": "2028-06-13",
+        "quantity": 1,
+        "unitType": "box",
+        "unitsPerBox": 10,
+        "pricePerUnit": 70,
+        "discount": 0,
+        "lineTotal": 70
+      },
+      {
+        "productId": 1780328988413,
+        "name": "Panzol 40mg",
+        "batchNo": "45t5",
+        "expiryDate": "2028-06-14",
+        "quantity": 1,
+        "unitType": "box",
+        "unitsPerBox": 14,
+        "pricePerUnit": 450,
+        "discount": 0,
+        "lineTotal": 450
+      }
+    ],
+    "grossTotal": 721,
+    "discountTotal": 0,
+    "netTotal": 721,
+    "totalProfit": 48.794,
+    "paymentMethod": "cash"
+  },
+  {
+    "id": "sale_20260605_1368",
+    "dateTime": "2026-06-05T09:29:43.197Z",
+    "customer": {
+      "name": null,
+      "phone": null
+    },
+    "items": [
+      {
+        "productId": 1779807371775,
+        "name": "razolam 0.5mg",
+        "batchNo": "8d897",
+        "expiryDate": "2028-01-01",
+        "quantity": 1,
+        "unitType": "box",
+        "unitsPerBox": 10,
+        "pricePerUnit": 201,
+        "discount": 0,
+        "lineTotal": 201
+      }
+    ],
+    "grossTotal": 201,
+    "discountTotal": 0,
+    "netTotal": 201,
+    "totalProfit": 2.8140000000000005,
+    "paymentMethod": "cash"
+  },
+  {
+    "id": "sale_20260605_2780",
+    "dateTime": "2026-06-05T09:30:33.663Z",
+    "customer": {
+      "name": null,
+      "phone": null
+    },
+    "items": [
+      {
+        "productId": 1780328927857,
+        "name": "Panadol 500mg",
+        "batchNo": "BT5784",
+        "expiryDate": "2028-06-13",
+        "quantity": 1,
+        "unitType": "box",
+        "unitsPerBox": 10,
+        "pricePerUnit": 70,
+        "discount": 0,
+        "lineTotal": 70
+      },
+      {
+        "productId": 1780330000001,
+        "name": "Augmentin 625mg",
+        "batchNo": "AGM24A",
+        "expiryDate": "2027-11-30",
+        "quantity": 1,
+        "unitType": "box",
+        "unitsPerBox": 10,
+        "pricePerUnit": 950,
+        "discount": 0,
+        "lineTotal": 950
+      },
+      {
+        "productId": 1780330000006,
+        "name": "Azomax 500mg",
+        "batchNo": "AZM500",
+        "expiryDate": "2027-12-31",
+        "quantity": 4,
+        "unitType": "plate",
+        "unitsPerBox": 6,
+        "pricePerUnit": 130,
+        "discount": 0,
+        "lineTotal": 520
+      },
+      {
+        "productId": 1780330000007,
+        "name": "Arinac Forte",
+        "batchNo": "ARF22",
+        "expiryDate": "2027-04-18",
+        "quantity": 5,
+        "unitType": "plate",
+        "unitsPerBox": 10,
+        "pricePerUnit": 35,
+        "discount": 0,
+        "lineTotal": 175
+      }
+    ],
+    "grossTotal": 1715,
+    "discountTotal": 0,
+    "netTotal": 1715,
+    "totalProfit": 0,
+    "paymentMethod": "cash"
+  },
+  {
+    "id": "sale_20260605_1947",
+    "dateTime": "2026-06-05T09:37:45.358Z",
+    "customer": {
+      "name": "arshan",
+      "phone": "12345678"
+    },
+    "items": [
+      {
+        "productId": 1780330000004,
+        "name": "Disprin 300mg",
+        "batchNo": "DSPN11",
+        "expiryDate": "2028-01-20",
+        "quantity": 5,
+        "unitType": "box",
+        "unitsPerBox": 10,
+        "pricePerUnit": 60,
+        "discount": 0,
+        "lineTotal": 300
+      },
+      {
+        "productId": 1780330000007,
+        "name": "Arinac Forte",
+        "batchNo": "ARF22",
+        "expiryDate": "2027-04-18",
+        "quantity": 3,
+        "unitType": "box",
+        "unitsPerBox": 10,
+        "pricePerUnit": 350,
+        "discount": 0,
+        "lineTotal": 1050
+      },
+      {
+        "productId": 1780330000005,
+        "name": "Ciproflox 500mg",
+        "batchNo": "CPF500",
+        "expiryDate": "2027-08-05",
+        "quantity": 5,
+        "unitType": "box",
+        "unitsPerBox": 10,
+        "pricePerUnit": 420,
+        "discount": 0,
+        "lineTotal": 2100
+      }
+    ],
+    "grossTotal": 3450,
+    "discountTotal": 0,
+    "netTotal": 3450,
+    "totalProfit": 445,
+    "paymentMethod": "cash"
+  },
+  {
+    "id": "sale_20260605_3902",
+    "dateTime": "2026-06-05T10:02:11.303Z",
+    "customer": {
+      "name": "sadfghj",
+      "phone": "23434567"
+    },
+    "items": [
+      {
+        "productId": 1779807371775,
+        "name": "razolam 0.5mg",
+        "batchNo": "8d897",
+        "expiryDate": "2028-01-01",
+        "quantity": 1,
+        "unitType": "box",
+        "unitsPerBox": 10,
+        "pricePerUnit": 201,
+        "discount": 0,
+        "lineTotal": 201
+      },
+      {
+        "productId": 1780328927857,
+        "name": "Panadol 500mg",
+        "batchNo": "BT5784",
+        "expiryDate": "2028-06-13",
+        "quantity": 12,
+        "unitType": "plate",
+        "unitsPerBox": 10,
+        "pricePerUnit": 7,
+        "discount": 0,
+        "lineTotal": 84
+      }
+    ],
+    "grossTotal": 285,
+    "discountTotal": 0,
+    "netTotal": 285,
+    "totalProfit": 3.9900000000000007,
+    "paymentMethod": "cash"
+  },
+  {
+    "id": "sale_20260605_1853",
+    "dateTime": "2026-06-05T10:07:35.041Z",
+    "customer": {
+      "name": null,
+      "phone": null
+    },
+    "items": [
+      {
+        "productId": 1779807371775,
+        "name": "razolam 0.5mg",
+        "batchNo": "8d897",
+        "expiryDate": "2028-01-01",
+        "quantity": 1,
+        "unitType": "box",
+        "unitsPerBox": 10,
+        "pricePerUnit": 201,
+        "discount": 0,
+        "lineTotal": 201
+      }
+    ],
+    "grossTotal": 201,
+    "discountTotal": 0,
+    "netTotal": 201,
+    "totalProfit": 2.8140000000000005,
+    "paymentMethod": "cash"
+  },
+  {
+    "id": "sale_20260605_9601",
+    "dateTime": "2026-06-05T10:09:59.964Z",
+    "customer": {
+      "name": null,
+      "phone": null
+    },
+    "items": [
+      {
+        "productId": 1779808641356,
+        "name": "flagyl 400mg",
+        "batchNo": "an104",
+        "expiryDate": "2028-12-01",
+        "quantity": 1,
+        "unitType": "box",
+        "unitsPerBox": 10,
+        "pricePerUnit": 952.41,
+        "discount": 12,
+        "lineTotal": 838.1207999999999
+      }
+    ],
+    "grossTotal": 952.41,
+    "discountTotal": 114.28920000000005,
+    "netTotal": 838.1207999999999,
+    "totalProfit": 138.09,
+    "paymentMethod": "cash"
+  },
+  {
+    "id": "sale_20260605_1986",
+    "dateTime": "2026-06-05T10:11:02.786Z",
+    "customer": {
+      "name": null,
+      "phone": null
+    },
+    "items": [
+      {
+        "productId": 1779808641356,
+        "name": "flagyl 400mg",
+        "batchNo": "an104",
+        "expiryDate": "2028-12-01",
+        "quantity": 2,
+        "unitType": "box",
+        "unitsPerBox": 10,
+        "pricePerUnit": 952.41,
+        "discount": 0,
+        "lineTotal": 1904.82
+      },
+      {
+        "productId": 1779807371775,
+        "name": "razolam 0.5mg",
+        "batchNo": "8d897",
+        "expiryDate": "2028-01-01",
+        "quantity": 2,
+        "unitType": "box",
+        "unitsPerBox": 10,
+        "pricePerUnit": 201,
+        "discount": 0,
+        "lineTotal": 402
+      },
+      {
+        "productId": 1780330000007,
+        "name": "Arinac Forte",
+        "batchNo": "ARF22",
+        "expiryDate": "2027-04-18",
+        "quantity": 2,
+        "unitType": "box",
+        "unitsPerBox": 10,
+        "pricePerUnit": 350,
+        "discount": 0,
+        "lineTotal": 700
+      },
+      {
+        "productId": 1780330000017,
+        "name": "Evion 400mg",
+        "batchNo": "EVN400",
+        "expiryDate": "2028-02-02",
+        "quantity": 2,
+        "unitType": "plate",
+        "unitsPerBox": 10,
+        "pricePerUnit": 31,
+        "discount": 0,
+        "lineTotal": 62
+      },
+      {
+        "productId": 1780330000022,
+        "name": "Acefol 500mg",
+        "batchNo": "ACE500",
+        "expiryDate": "2027-10-12",
+        "quantity": 2,
+        "unitType": "box",
+        "unitsPerBox": 10,
+        "pricePerUnit": 280,
+        "discount": 0,
+        "lineTotal": 560
+      },
+      {
+        "productId": 1780330000031,
+        "name": "Gliciphage 500mg",
+        "batchNo": "GLC500",
+        "expiryDate": "2027-11-18",
+        "quantity": 4,
+        "unitType": "plate",
+        "unitsPerBox": 10,
+        "pricePerUnit": 25,
+        "discount": 0,
+        "lineTotal": 100
+      },
+      {
+        "productId": 1780330000041,
+        "name": "Quetia 25mg",
+        "batchNo": "QT25",
+        "expiryDate": "2027-06-30",
+        "quantity": 3,
+        "unitType": "plate",
+        "unitsPerBox": 10,
+        "pricePerUnit": 42,
+        "discount": 0,
+        "lineTotal": 126
+      }
+    ],
+    "grossTotal": 3854.8199999999997,
+    "discountTotal": 0,
+    "netTotal": 3854.8199999999997,
+    "totalProfit": 465.808,
+    "paymentMethod": "cash"
+  },
+  {
+    "id": "sale_20260605_5631",
+    "dateTime": "2026-06-05T11:10:48.458Z",
+    "customer": {
+      "name": null,
+      "phone": null
+    },
+    "items": [
+      {
+        "productId": 1780330000052,
+        "name": "Cardam 2.5mg",
+        "batchNo": "CDM25",
+        "expiryDate": "2027-12-18",
+        "quantity": 5,
+        "unitType": "box",
+        "unitsPerBox": 10,
+        "pricePerUnit": 320,
+        "discount": 0,
+        "lineTotal": 1600
+      }
+    ],
+    "grossTotal": 1600,
+    "discountTotal": 0,
+    "netTotal": 1600,
+    "totalProfit": 200,
+    "paymentMethod": "cash"
+  }
+]
