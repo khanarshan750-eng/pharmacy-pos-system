@@ -1,0 +1,439 @@
+/* ===== Theme variables ===== */
+
+/* Light (default) */
+:root {
+  --bg-body: #f3f4f6;
+  --bg-card: #ffffff;
+  --text-main: #111827;
+  --text-muted: #6b7280;
+  --border-subtle: #f0f0f0;
+  --shadow-card: 0 8px 24px rgba(15, 23, 42, 0.04);
+
+  --tab-bg: #ffffff;
+  --tab-border: #e5e7eb;
+
+  --primary: #27ae60;
+  --danger: #e74c3c;
+
+  --scrollbar-thumb: #cbd5e1;
+}
+
+/* Dark theme */
+:root[data-theme='dark'] {
+  --bg-body: #020617;
+  --bg-card: #020617;
+  --text-main: #e5e7eb;
+  --text-muted: #9ca3af;
+  --border-subtle: #1f2937;
+  --shadow-card: 0 10px 30px rgba(0, 0, 0, 0.8);
+
+  --tab-bg: #020617;
+  --tab-border: #1f2937;
+
+  --primary: #22c55e;
+  --danger: #f97373;
+
+  --scrollbar-thumb: #4b5563;
+}
+
+/* ===== Global base ===== */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    sans-serif;
+  background: var(--bg-body);
+  color: var(--text-main);
+}
+
+/* Generic card for sections */
+.app-section-card {
+  background: var(--bg-card);
+  border-radius: 12px;
+  box-shadow: var(--shadow-card);
+  border: 1px solid var(--border-subtle);
+  padding: 16px;
+}
+
+/* Small screens: slightly tighter */
+@media (max-width: 768px) {
+  .app-section-card {
+    padding: 10px;
+    border-radius: 10px;
+  }
+}
+
+/* Generic mobile stack helper */
+.stack-mobile {
+  display: flex;
+  gap: 8px;
+}
+
+@media (max-width: 768px) {
+  .stack-mobile {
+    flex-direction: column;
+  }
+}
+
+/* Primary button base (you can still override inline) */
+.btn-primary {
+  background: var(--primary);
+  color: #ffffff;
+  border: none;
+  border-radius: 999px;
+  padding: 8px 16px;
+  font-size: 13px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.btn-primary:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* ===== Shell layout ===== */
+
+.app-shell {
+  min-height: 100vh;
+  background: var(--bg-body);
+  padding: 12px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  .app-shell {
+    padding: 8px 0 12px;
+  }
+}
+
+.app-shell-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 18px 40px; /* bottom padding footer ke liye */
+  box-sizing: border-box;
+  flex: 1 0 auto;
+}
+
+/* Header layout (top bar) */
+
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+/* ===== Tabs (Sales / Products / Summary / Customers) ===== */
+
+/* Desktop / default */
+.app-tabs {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  margin-bottom: 18px;
+  padding: 6px;
+  border-radius: 999px;
+  background: var(--tab-bg);
+  border: 1px solid var(--tab-border);
+  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.06);
+  box-sizing: border-box;
+}
+
+/* Tab button */
+.app-tab-btn {
+  flex-shrink: 0;
+}
+
+/* Tablets & mobiles */
+@media (max-width: 768px) {
+  .app-shell-inner {
+    padding: 0 10px 46px;
+  }
+
+  .app-header {
+    flex-direction: column;
+    align-items: stretch;
+    text-align: center;
+    gap: 10px;
+  }
+
+  /* Header inner parts ko stack karne mein help */
+  .app-header > div {
+    width: 100%;
+  }
+
+  .app-tabs {
+    width: 100%;
+    justify-content: space-between;
+    gap: 6px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(15, 23, 42, 0.05);
+  }
+
+  .app-tab-btn {
+    flex: 1 1 0;
+    font-size: 12px;
+    padding: 8px 10px;
+    justify-content: center;
+  }
+}
+
+/* Small phones */
+@media (max-width: 480px) {
+  .app-tabs {
+    gap: 4px;
+    padding: 4px;
+  }
+
+  .app-tab-btn {
+    font-size: 11px;
+    padding: 7px 8px;
+  }
+}
+
+/* ===== Products tab (AddProduct + ProductList) ===== */
+
+/* Flex layout: left = AddProduct, right = ProductList */
+
+.products-layout {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+/* Left child = AddProduct */
+.products-layout > :first-child {
+  flex: 0 0 320px;
+  max-width: 360px;
+}
+
+/* Right child = ProductList */
+.products-layout > :last-child {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+/* Mobile / tablet: stack vertically */
+@media (max-width: 768px) {
+  .products-layout {
+    flex-direction: column;
+  }
+
+  .products-layout > :first-child,
+  .products-layout > :last-child {
+    flex: 1 1 auto;
+    max-width: 100%;
+  }
+}
+
+/* ===== Common 2-column form rows ===== */
+
+.form-row-2col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+@media (max-width: 768px) {
+  .form-row-2col {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ===== KPI cards grid in StockSummary ===== */
+
+.summary-kpi-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+}
+
+@media (max-width: 768px) {
+  .summary-kpi-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ===== Sales layout: left list + right cart ===== */
+
+.sales-layout {
+  display: grid;
+  grid-template-columns: 1.1fr 1.2fr;
+  gap: 16px;
+}
+
+/* Barcode + search row */
+.sales-search-row {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 8px;
+}
+
+/* Mobile: stack sales layout */
+@media (max-width: 768px) {
+  .sales-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .sales-search-row {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ===== Product table scroll / mobile tweaks ===== */
+
+.product-table-scroll {
+}
+
+.product-table-scroll::-webkit-scrollbar {
+  height: 6px;
+  width: 6px;
+}
+
+.product-table-scroll::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb);
+  border-radius: 999px;
+}
+
+.product-table-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.product-table {
+  width: 100%;
+}
+
+/* Mobile: fonts aur row padding choti */
+@media (max-width: 768px) {
+  .product-table th,
+  .product-table td {
+    padding: 6px 6px;
+    font-size: 11px;
+  }
+
+  .product-table th {
+    font-size: 10px;
+  }
+}
+
+/* ===== Customer history ===== */
+
+.customer-history-layout {
+  margin-top: 8px;
+}
+
+/* same idea as product-table-scroll, but separate class for clarity */
+.customer-history-scroll {
+}
+
+.customer-history-scroll::-webkit-scrollbar {
+  height: 6px;
+  width: 6px;
+}
+
+.customer-history-scroll::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb);
+  border-radius: 999px;
+}
+
+.customer-history-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Mobile: history table text tight */
+@media (max-width: 768px) {
+  .customer-history-layout {
+    margin-top: 6px;
+  }
+
+  .customer-history-scroll table th,
+  .customer-history-scroll table td {
+    padding: 6px 6px;
+    font-size: 11px;
+  }
+
+  .customer-history-scroll table th {
+    font-size: 10px;
+  }
+}
+
+/* ===== Branding footer ===== */
+
+.branding-footer {
+  flex-shrink: 0;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 6px 10px;
+  background: transparent;
+  display: flex;
+  justify-content: flex-end;
+  z-index: 999;
+  pointer-events: none;
+}
+
+/* Sirf logo clickable */
+.branding-link {
+  pointer-events: auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+/* Logo styling */
+.branding-logo {
+  height: 42px;
+  width: auto;
+  border-radius: 10px;
+  object-fit: contain;
+  background: transparent;
+  box-shadow: none;
+  transition: transform 0.18s ease;
+}
+
+/* Light hover zoom */
+.branding-link:hover .branding-logo {
+  transform: scale(1.06);
+}
+
+/* Mobile footer tweaks */
+@media (max-width: 768px) {
+  .branding-footer {
+    padding: 6px 8px;
+  }
+
+  .branding-logo {
+    height: 36px;
+  }
+}
+
+/* ===== PRINT: only receipt area ===== */
+@media print {
+  body * {
+    visibility: hidden;
+  }
+
+  #print-receipt,
+  #print-receipt * {
+    visibility: visible;
+  }
+
+  #print-receipt {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+}
