@@ -14,23 +14,23 @@ Below are real screenshots of the system showing main features and workflow:
 ---
 
 ### 🔐 Login Page
-![Login Page](./screenshots/Login Page.png)
+![Login Page](./screenshots/login-page.png)
 
 Secure login system to restrict unauthorized access.  
 Supports role-based entry for admin/staff users.
 
 ---
 
-### 📊 Dashboard (Main Overview)
-![Dashboard](./screenshots/Access on mobile-Dashboard.png)
+### 📊 Dashboard (Mobile View)
+![Dashboard](./screenshots/access-mobile-dashboard.png)
 
 Central control panel showing overall business stats.  
 Quick access to sales, stock, and alerts from one screen.
 
 ---
 
-### 📦 Add Product & Product List
-![Product Management](./screenshots/Add Product,Productlist-Dashboard.png)
+### 📦 Product Management (Add Product & List)
+![Product Management](./screenshots/product-management-dashboard.png)
 
 Manage inventory efficiently:
 - Add new medicines/products
@@ -40,7 +40,7 @@ Manage inventory efficiently:
 ---
 
 ### 👤 Customer Details
-![Customer Details](./screenshots/Costumer Detail-Dashboard.png)
+![Customer Details](./screenshots/customer-detail-dashboard.png)
 
 Stores customer information for every sale:
 - Name & phone tracking
@@ -50,7 +50,7 @@ Stores customer information for every sale:
 ---
 
 ### 🛒 Make Sale (Billing System)
-![Make Sale](./screenshots/Make Sale-Dashboard.png)
+![Make Sale](./screenshots/make-sale-dashboard.png)
 
 Fast billing system designed for medical stores:
 - Instant product search
@@ -61,7 +61,7 @@ Fast billing system designed for medical stores:
 ---
 
 ### 📉 Stock Summary
-![Stock Summary](./screenshots/Stock Summary-Dashboard.png)
+![Stock Summary](./screenshots/stock-summary-dashboard.png)
 
 Complete stock overview:
 - Available stock tracking
@@ -71,7 +71,7 @@ Complete stock overview:
 ---
 
 ### ⚠️ Low Stock & Expiry Alerts
-![Alerts](./screenshots/Low Stock,Expiry Alert-Dashboard.png)
+![Alerts](./screenshots/stock-alert-dashboard.png)
 
 Smart alert system:
 - Low stock notifications
@@ -81,7 +81,7 @@ Smart alert system:
 ---
 
 ### 🎨 Light Theme UI
-![Light Theme](./screenshots/Light Theme.png)
+![Light Theme](./screenshots/light-theme.png)
 
 Clean and modern light UI design:
 - Easy on eyes for long use
